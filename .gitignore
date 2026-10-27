@@ -1,0 +1,19 @@
+# Build artifacts (Niri source + binaries, ~2.7 GB)
+build/
+target/
+
+# Downloaded .deb packages
+*.deb
+
+# Backups
+*.orig
+*.bak
+*.uninstalled.*
+
+# Test/temp
+*.log
+*.tmp
+.DS_Store
+
+# Personal settings
+configs/*/*.local.*
